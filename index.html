@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Arpit Saxena — EHS / HSE Professional</title>
+<meta name="description" content="Arpit Saxena — Environment, Health & Safety (EHS/HSE) professional with experience across POWERGRID, L&T and Tata Projects. M.Tech Industrial Safety Engineering (NIT Trichy), NEBOSH PSM, IOSH, ISO 45001." />
+<meta name="author" content="Arpit Saxena" />
+<meta property="og:title" content="Arpit Saxena — EHS / HSE Professional" />
+<meta property="og:description" content="EHS leadership across power transmission, semiconductor fabrication, EV gigafactory and solar EPC projects." />
+<meta property="og:type" content="website" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%231f3864'/><text x='50' y='68' font-size='54' font-family='Arial' font-weight='bold' fill='%23f5b700' text-anchor='middle'>AS</text></svg>" />
+<style>
+  :root{
+    --navy:#10203b; --navy2:#162a4d; --steel:#2e5a88; --accent:#f5b700; --accent2:#37c8c3;
+    --ink:#0d1726; --paper:#f6f8fc; --card:#ffffff; --muted:#5b6b82; --line:#e3e9f2;
+    --radius:18px; --shadow:0 18px 40px -22px rgba(16,32,59,.45); --maxw:1120px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       background:var(--paper);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+  section{padding:88px 0}
+  .eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--steel)}
+  h2.title{font-size:clamp(1.7rem,3.6vw,2.5rem);font-weight:800;letter-spacing:-.02em;margin:.35rem 0 .4rem;color:var(--navy)}
+  .lead{color:var(--muted);max-width:680px;font-size:1.02rem}
+
+  /* NAV */
+  header.nav{position:fixed;top:0;left:0;right:0;z-index:50;transition:.3s}
+  header.nav .bar{display:flex;align-items:center;justify-content:space-between;height:64px;margin:0 auto;max-width:var(--maxw);padding:0 22px}
+  header.nav.scrolled{background:rgba(16,32,59,.86);backdrop-filter:blur(12px);box-shadow:0 6px 24px -16px rgba(0,0,0,.6)}
+  .brand{font-weight:800;letter-spacing:.02em;color:#fff;font-size:1.05rem;display:flex;gap:9px;align-items:center}
+  .brand .dot{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--accent),#ffd24a);
+       color:var(--navy);display:grid;place-items:center;font-size:.85rem;font-weight:900}
+  nav.links{display:flex;gap:26px}
+  nav.links a{color:#dce6f5;font-size:.92rem;font-weight:600;opacity:.9;transition:.2s}
+  nav.links a:hover{color:var(--accent);opacity:1}
+  .nav-cta{background:var(--accent);color:var(--navy);padding:8px 16px;border-radius:999px;font-weight:800;font-size:.86rem}
+  .burger{display:none;background:none;border:0;color:#fff;font-size:1.5rem;cursor:pointer}
+
+  /* HERO */
+  .hero{position:relative;background:
+        radial-gradient(1100px 520px at 78% -8%,rgba(55,200,195,.18),transparent 60%),
+        radial-gradient(900px 480px at 12% 12%,rgba(245,183,0,.12),transparent 55%),
+        linear-gradient(160deg,var(--navy) 0%,var(--navy2) 55%,#1b365d 100%);
+        background-color:var(--navy);color:#eaf1fb;padding:140px 0 96px;overflow:hidden}
+  .hero-grid{display:grid;grid-template-columns:1.25fr .9fr;gap:48px;align-items:center}
+  .hero h1{font-size:clamp(2.1rem,5vw,3.4rem);line-height:1.07;font-weight:800;letter-spacing:-.02em;color:#fff}
+  .hero h1 .hl{color:var(--accent)}
+  .hero .role{margin-top:14px;font-size:1.12rem;font-weight:600;color:#bcd0ea}
+  .hero .pitch{margin-top:18px;color:#aebfd6;max-width:560px;font-size:1.02rem}
+  .badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .badge{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.05);padding:6px 13px;border-radius:999px;font-size:.82rem;font-weight:600;color:#d7e3f5}
+  .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+  .btn{display:inline-flex;align-items:center;gap:9px;padding:13px 22px;border-radius:999px;font-weight:800;font-size:.95rem;transition:.22s;cursor:pointer;border:0}
+  .btn.primary{background:var(--accent);color:var(--navy);box-shadow:0 14px 30px -14px rgba(245,183,0,.7)}
+  .btn.primary:hover{transform:translateY(-2px)}
+  .btn.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.28)}
+  .btn.ghost:hover{border-color:var(--accent);color:var(--accent)}
+
+  .portrait-wrap{position:relative;display:grid;place-items:center}
+  .portrait{width:300px;height:300px;border-radius:50%;object-fit:cover;border:6px solid rgba(255,255,255,.12);
+       box-shadow:0 30px 60px -25px rgba(0,0,0,.7);background:#1d3a5f}
+  .portrait-fallback{width:300px;height:300px;border-radius:50%;display:grid;place-items:center;
+       background:linear-gradient(135deg,var(--steel),var(--navy2));border:6px solid rgba(255,255,255,.12);
+       font-size:5rem;font-weight:800;color:var(--accent);box-shadow:0 30px 60px -25px rgba(0,0,0,.7)}
+  .ring{position:absolute;inset:-16px;border-radius:50%;border:2px dashed rgba(245,183,0,.4);animation:spin 24s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .float-chip{position:absolute;background:#fff;color:var(--navy);border-radius:14px;padding:10px 14px;font-weight:800;font-size:.82rem;box-shadow:var(--shadow);display:flex;gap:8px;align-items:center}
+  .float-chip small{display:block;font-weight:600;color:var(--muted);font-size:.68rem}
+  .fc1{top:6%;left:-6%}.fc2{bottom:8%;right:-8%}
+  .fc-ico{width:30px;height:30px;border-radius:8px;background:var(--paper);display:grid;place-items:center;font-size:1rem}
+
+  /* STATS */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:64px}
+  .stat{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius);padding:22px 18px;text-align:center}
+  .stat b{font-size:2rem;font-weight:800;color:var(--accent);display:block;letter-spacing:-.02em}
+  .stat span{font-size:.84rem;color:#c2d2ea;font-weight:600}
+
+  /* EXPERIENCE TIMELINE */
+  .tl{position:relative;margin-top:40px;padding-left:8px}
+  .tl::before{content:"";position:absolute;left:18px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--accent),var(--accent2))}
+  .titem{position:relative;padding:0 0 30px 56px}
+  .tdot{position:absolute;left:9px;top:4px;width:20px;height:20px;border-radius:50%;background:#fff;border:4px solid var(--steel);z-index:2}
+  .tcard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow)}
+  .tcard .top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;align-items:baseline}
+  .tcard h3{font-size:1.16rem;color:var(--navy);font-weight:800}
+  .tcard .co{font-weight:700;color:var(--steel);font-size:.98rem}
+  .tcard .when{font-size:.82rem;font-weight:800;color:#fff;background:var(--steel);padding:4px 11px;border-radius:999px;white-space:nowrap}
+  .tcard .proj{font-style:italic;color:var(--muted);font-size:.9rem;margin:4px 0 10px}
+  .tcard ul{list-style:none;display:grid;gap:7px}
+  .tcard li{position:relative;padding-left:20px;font-size:.94rem;color:#33445e}
+  .tcard li::before{content:"";position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+
+  /* SECTOR / PROJECTS */
+  .alt{background:linear-gradient(180deg,#eef3fa,#f6f8fc)}
+  .pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:36px}
+  .pcard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow);transition:.25s}
+  .pcard:hover{transform:translateY(-6px);border-color:var(--accent)}
+  .pico{width:50px;height:50px;border-radius:13px;display:grid;place-items:center;font-size:1.5rem;background:linear-gradient(135deg,#eaf2ff,#dfeaff);margin-bottom:14px}
+  .pcard h4{color:var(--navy);font-size:1.08rem;font-weight:800;margin-bottom:4px}
+  .pcard .tag{font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--steel)}
+  .pcard p{color:var(--muted);font-size:.92rem;margin-top:8px}
+
+  /* CERTS */
+  .cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:36px}
+  .cert{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:14px;padding:18px 18px;box-shadow:var(--shadow);transition:.22s}
+  .cert:hover{transform:translateY(-4px)}
+  .cert .nm{font-weight:800;color:var(--navy);font-size:.98rem;line-height:1.3}
+  .cert .by{color:var(--muted);font-size:.84rem;margin-top:5px;font-weight:600}
+
+  /* SKILLS */
+  .skillwrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-top:36px}
+  .skillcol h5{color:var(--steel);font-size:.82rem;text-transform:uppercase;letter-spacing:.1em;font-weight:800;margin-bottom:12px}
+  .chips{display:flex;flex-wrap:wrap;gap:9px}
+  .chip{background:#fff;border:1px solid var(--line);color:#27374f;padding:8px 14px;border-radius:999px;font-size:.86rem;font-weight:600;transition:.2s}
+  .chip:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+  /* CONTACT */
+  .contact{background:
+        radial-gradient(800px 400px at 80% 0%,rgba(55,200,195,.16),transparent 60%),
+        linear-gradient(160deg,var(--navy),var(--navy2));color:#eaf1fb;text-align:center;border-radius:0}
+  .contact h2{color:#fff}
+  .contact .lead{color:#b3c5de;margin:0 auto}
+  .cbtns{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:30px}
+  footer{background:var(--ink);color:#8ea2bf;text-align:center;padding:26px;font-size:.86rem}
+  footer a{color:var(--accent);font-weight:600}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(26px);transition:.7s cubic-bezier(.2,.7,.2,1)}
+  .reveal.show{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.ring{animation:none}}
+
+  @media(max-width:860px){
+    .hero-grid{grid-template-columns:1fr;text-align:center}
+    .portrait-wrap{order:-1;margin-bottom:8px}
+    .badges,.cta-row{justify-content:center}
+    .pitch{margin-left:auto;margin-right:auto}
+    .stats{grid-template-columns:repeat(2,1fr)}
+    nav.links,.nav-cta{display:none}
+    .burger{display:block}
+    nav.links.open{display:flex;position:absolute;top:64px;left:0;right:0;flex-direction:column;background:var(--navy2);padding:18px 22px;gap:16px}
+    .float-chip{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="bar">
+    <a href="#top" class="brand"><span class="dot">AS</span> Arpit Saxena</a>
+    <nav class="links" id="navlinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#sectors">Projects</a>
+      <a href="#certs">Certifications</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="Arpit_Saxena_Resume.pdf" class="nav-cta" download>Download CV</a>
+    <button class="burger" id="burger" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top" style="padding-top:140px">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow" style="color:var(--accent)">Environment · Health · Safety Leadership</p>
+        <h1>Building <span class="hl">Zero-Harm</span> workplaces across India's biggest projects.</h1>
+        <p class="role">Safety Engineer / Regional Safety Officer — POWERGRID &nbsp;·&nbsp; M.Tech, NIT Trichy</p>
+        <p class="pitch">EHS/HSE professional with nearly 5 years driving safety, environment and sustainability across power transmission, semiconductor fabrication, EV gigafactory and solar EPC projects — from POWERGRID and L&amp;T to Tata Projects.</p>
+        <div class="badges">
+          <span class="badge">NEBOSH HSE PSM</span>
+          <span class="badge">IOSH Managing Safely</span>
+          <span class="badge">ISO 45001</span>
+          <span class="badge">M.Tech Industrial Safety</span>
+        </div>
+        <div class="cta-row">
+          <a href="Arpit_Saxena_Resume.pdf" class="btn primary" download>⤓ Download Résumé</a>
+          <a href="#contact" class="btn ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="ring"></div>
+        <img class="portrait" src="profile.jpg" alt="Arpit Saxena"
+             onerror="this.style.display='none';document.getElementById('pf').style.display='grid'">
+        <div class="portrait-fallback" id="pf" style="display:none">AS</div>
+        <div class="float-chip fc1"><span class="fc-ico">🛡️</span><span>LTI-Free<small>Dholera Semicon</small></span></div>
+        <div class="float-chip fc2"><span class="fc-ico">🏆</span><span>BSC + NSC<small>Safety Awards</small></span></div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat reveal"><b>~5</b><span>Years in EHS</span></div>
+      <div class="stat reveal"><b>3</b><span>Marquee employers</span></div>
+      <div class="stat reveal"><b>150+</b><span>Incidents investigated</span></div>
+      <div class="stat reveal"><b>9+</b><span>Pro certifications</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <p class="eyebrow">About</p>
+    <h2 class="title">Safety that scales with the project.</h2>
+    <p class="lead reveal">I am a results-driven EHS/HSE professional who turns regulatory requirements into proactive safety cultures on the ground. My experience spans the full EPC spectrum — EHV power transmission and substations, semiconductor fab construction, EV gigafactories and utility-scale solar — where I lead HIRA/HAZOP risk assessments, IMS/ISO 45001 &amp; 14001 audits, incident investigations, permit-to-work systems, and EHS training. Backed by an M.Tech in Industrial Safety Engineering from NIT Tiruchirappalli and certifications including NEBOSH HSE PSM, IOSH Managing Safely and ISO 45001, I pair field discipline with data — using Power BI and EHS digitization to make safety measurable.</p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">Career Journey</p>
+    <h2 class="title">Professional Experience</h2>
+    <div class="tl">
+
+      <div class="titem reveal">
+        <span class="tdot" style="border-color:var(--accent)"></span>
+        <div class="tcard">
+          <div class="top">
+            <div><h3>Safety Engineer / Regional Safety Officer</h3><span class="co">Power Grid Corporation of India Ltd (POWERGRID)</span></div>
+            <span class="when">Jul 2025 – Present</span>
+          </div>
+          <p class="proj">CTDS Arunachal Pradesh — EHV Transmission &amp; Substation Project</p>
+          <ul>
+            <li>Lead regional EHS for EHV transmission-line and substation construction, championing POWERGRID's "Zero Harm" standards across challenging hilly/remote terrain.</li>
+            <li>Enforce permit-to-work, work-at-height, electrical isolation/LOTOTO and lifting controls for tower foundation, erection and stringing activities.</li>
+            <li>Run field HIRA/JSA reviews, safety audits and contractor evaluations; drive timely closure of corrective &amp; preventive actions.</li>
+            <li>Investigate incidents and near-misses with root-cause analysis and roll out lessons-learned and safety alerts region-wide.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="titem reveal">
+        <span class="tdot"></span>
+        <div class="tcard">
+          <div class="top">
+            <div><h3>Assistant Manager – EHS</h3><span class="co">Larsen &amp; Toubro Ltd · Construction (Buildings &amp; Factories)</span></div>
+            <span class="when">Dec 2024 – Jul 2025</span>
+          </div>
+          <p class="proj">Dholera Semiconductor Fabrication Facility ("Project Spark"), Gujarat</p>
+          <ul>
+            <li>Managed site EHS across civil, structural and P&amp;M activities for a flagship semiconductor mega-project — maintaining an LTI-free record throughout tenure.</li>
+            <li>Achieved 100% inspection compliance in allocated zones, personally leading 100+ documented inspections and proactive observations.</li>
+            <li>Administered permit-to-work for high-risk activities — tower-crane erection, deep excavation and piling.</li>
+            <li>Built site-specific and OEM-referenced equipment checklists; completed 100% of control-procedure documentation for audit within 3 days against target.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="titem reveal">
+        <span class="tdot"></span>
+        <div class="tcard">
+          <div class="top">
+            <div><h3>Deputy Manager – EHS</h3><span class="co">Tata Projects Ltd</span></div>
+            <span class="when">Jul 2022 – Dec 2024</span>
+          </div>
+          <p class="proj">First Solar · TP Solar · Anant National University · TIIS · Agratas Gigafactory, Sanand</p>
+          <ul>
+            <li>Delivered EHS objectives to ISO 45001 &amp; 14001 across solar, institutional-build and EV gigafactory projects as Site In-charge &amp; Environment Manager.</li>
+            <li>Facilitated investigation of 150+ incidents, near-misses and dangerous occurrences with effective corrective actions.</li>
+            <li>Won the British Safety Council International Safety Award (Merit) and NSC Tamil Chapter "Star" Award with the First Solar team.</li>
+            <li>Developed testing &amp; commissioning safety procedures and supervised critical lifting plans; monitored air/water/noise/STP and hazardous-waste compliance.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SECTORS / PROJECTS -->
+<section id="sectors">
+  <div class="wrap">
+    <p class="eyebrow">Project Domains</p>
+    <h2 class="title">Where I've delivered safety</h2>
+    <p class="lead">Hands-on EHS leadership across some of India's most demanding construction environments.</p>
+    <div class="pgrid">
+      <div class="pcard reveal"><div class="pico">⚡</div><span class="tag">Power Transmission</span><h4>POWERGRID — CTDS, Arunachal Pradesh</h4><p>EHV transmission lines &amp; substations — tower erection, stringing and high-voltage electrical safety.</p></div>
+      <div class="pcard reveal"><div class="pico">🔬</div><span class="tag">Semiconductor</span><h4>L&amp;T — Dholera Semicon Fab</h4><p>India's flagship semiconductor fabrication facility — LTI-free site EHS across civil, structural &amp; P&amp;M.</p></div>
+      <div class="pcard reveal"><div class="pico">🔋</div><span class="tag">EV Gigafactory</span><h4>Tata Projects — Agratas, Sanand</h4><p>Site In-charge &amp; Environment Manager for a large EV battery gigafactory build.</p></div>
+      <div class="pcard reveal"><div class="pico">☀️</div><span class="tag">Solar / Renewables</span><h4>Tata Projects — First Solar &amp; TP Solar</h4><p>Testing &amp; commissioning and module-area safety — award-winning EHS performance.</p></div>
+      <div class="pcard reveal"><div class="pico">🏛️</div><span class="tag">Institutional Build</span><h4>Anant National University &amp; TIIS</h4><p>Site EHS Lead for campus &amp; institutional construction projects in Ahmedabad.</p></div>
+      <div class="pcard reveal"><div class="pico">📊</div><span class="tag">EHS Digitization</span><h4>Data &amp; Analytics</h4><p>Power BI dashboards, SAP EHS and digital inspection systems turning safety data into action.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certs" class="alt">
+  <div class="wrap">
+    <p class="eyebrow">Credentials</p>
+    <h2 class="title">Certifications &amp; Training</h2>
+    <p class="lead">A continuously updated foundation of internationally recognised EHS qualifications.</p>
+    <div class="cgrid">
+      <div class="cert reveal"><div class="nm">NEBOSH HSE Certificate in Process Safety Management (Level 4)</div><div class="by">NEBOSH · HSE</div></div>
+      <div class="cert reveal"><div class="nm">IOSH Managing Safely</div><div class="by">British Safety Council</div></div>
+      <div class="cert reveal"><div class="nm">ISO 45001:2018 OH&amp;S Management System</div><div class="by">OHSMS</div></div>
+      <div class="cert reveal"><div class="nm">Scaffolding Inspector</div><div class="by">Ask-EHS</div></div>
+      <div class="cert reveal"><div class="nm">Safety &amp; Risk Analytics</div><div class="by">NPTEL</div></div>
+      <div class="cert reveal"><div class="nm">EHS for Operational Sustainability</div><div class="by">SAP</div></div>
+      <div class="cert reveal"><div class="nm">Fire Safety in Buildings &amp; Emergency Action Plan</div><div class="by">ILO</div></div>
+      <div class="cert reveal"><div class="nm">Business &amp; Operations Analytics</div><div class="by">NITIE Mumbai</div></div>
+      <div class="cert reveal"><div class="nm">Supply Chain Management</div><div class="by">CRDF Global</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <p class="eyebrow">Capabilities</p>
+    <h2 class="title">Core Competencies &amp; Tools</h2>
+    <div class="skillwrap">
+      <div class="skillcol reveal">
+        <h5>Safety &amp; Risk</h5>
+        <div class="chips">
+          <span class="chip">HIRA</span><span class="chip">HAZOP</span><span class="chip">HAZID</span><span class="chip">JSA</span>
+          <span class="chip">FMEA</span><span class="chip">Bow-Tie</span><span class="chip">Root-Cause Analysis</span>
+          <span class="chip">Process Safety (PSM)</span><span class="chip">PTW &amp; LOTOTO</span><span class="chip">Work-at-Height</span>
+        </div>
+      </div>
+      <div class="skillcol reveal">
+        <h5>Systems &amp; Compliance</h5>
+        <div class="chips">
+          <span class="chip">ISO 45001</span><span class="chip">ISO 14001</span><span class="chip">IMS Audits</span>
+          <span class="chip">Incident Investigation</span><span class="chip">Emergency Preparedness</span>
+          <span class="chip">Environmental Management</span><span class="chip">Hazardous Waste</span><span class="chip">Statutory Compliance</span>
+        </div>
+      </div>
+      <div class="skillcol reveal">
+        <h5>AI &amp; Data Analytics</h5>
+        <div class="chips">
+          <span class="chip">Generative AI (ChatGPT / Claude)</span><span class="chip">GitHub Copilot</span>
+          <span class="chip">AI/ML for Safety &amp; Risk Analytics</span><span class="chip">Predictive Analytics</span>
+          <span class="chip">Prompt Engineering</span><span class="chip">AI-assisted EHS Workflows</span>
+          <span class="chip">Power BI Dashboards</span><span class="chip">Data Visualization</span>
+        </div>
+      </div>
+      <div class="skillcol reveal">
+        <h5>Tools &amp; Software</h5>
+        <div class="chips">
+          <span class="chip">SAP EHS</span><span class="chip">Power BI</span><span class="chip">TQ Digi'lytics (Wrench)</span>
+          <span class="chip">ETAP</span><span class="chip">PowerWorld</span><span class="chip">MATLAB</span>
+          <span class="chip">Python</span><span class="chip">C++</span><span class="chip">MS Office</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--accent)">Let's connect</p>
+    <h2 class="title">Open to EHS leadership opportunities</h2>
+    <p class="lead">Building safer, more sustainable projects — let's talk about how I can help your team reach Zero Harm.</p>
+    <div class="cbtns">
+      <a href="mailto:arpitsaxena484@gmail.com" class="btn primary">✉ arpitsaxena484@gmail.com</a>
+      <a href="https://www.linkedin.com/in/arpit484/" target="_blank" rel="noopener" class="btn ghost">in · LinkedIn</a>
+      <a href="Arpit_Saxena_Resume.pdf" class="btn ghost" download>⤓ Résumé (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="yr"></span> Arpit Saxena · EHS / HSE Professional ·
+  Built for <a href="https://www.linkedin.com/in/arpit484/" target="_blank" rel="noopener">opportunities in safety &amp; sustainability</a>
+</footer>
+
+<script>
+  // year
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  // nav scroll state
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 30);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+  // mobile menu
+  const burger = document.getElementById('burger'), links = document.getElementById('navlinks');
+  burger.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+  // reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target);} });
+  }, {threshold:.14});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
